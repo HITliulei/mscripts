@@ -6,6 +6,10 @@
 
 
 
+### maven
+
+- `maven.sh` 安装maven环境， 会先安装java8
+
 
 
 
