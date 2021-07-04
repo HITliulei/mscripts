@@ -1,12 +1,11 @@
 #!/bin/bash
 
 # replace k8s.gcr.io with gcrxio
+VERSION=v1.19.8
 if [[ $# != 1 ]]; then
-    echo "$0 k8s_version"
-    exit 0
+    echo "k8s_version" $1
+    VERSION=$1
 fi
-
-VERSION=$1
 
 image_list=`kubeadm config images list --kubernetes-version $VERSION`
 for image_name in $image_list
