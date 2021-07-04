@@ -12,9 +12,9 @@
 ### k8s: k8s集群安装
 **先安装docker 在进行kubernetes的安装**
 
-- `docker_install.sh`: docker的安装，将本机所有docker配置全部删除, 里面的版本为5:19.03.1亲测有效， 可以使用,`sudo ./docker_install.sh`
+- `docker_install.sh`: docker的安装，将本机所有docker配置全部删除 可以使用,`sudo ./docker_install.sh`
 - `docker_office_install.sh`: docker 官方的安装， 感觉比上面的靠谱点？
-- `k8s_install.sh` `sudo ./k8s_install.sh 1.18.6` 默认1.18.6也是版本（注意 kubernetes 1.20版本之后逐渐弃用docker）
+- `k8s_install.sh` 后面添加版本号，  `sudo ./k8s_install.sh 1.19.8` ， 不写的话默认1.19.8， （注意 kubernetes 1.20版本之后逐渐弃用docker）
 - `k8s_gxrcio.sh` 更换国内，镜像， 加快速度
 
 
