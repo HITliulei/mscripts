@@ -2,8 +2,7 @@
 
 # replace k8s.gcr.io with gcrxio
 VERSION=v1.19.8
-if [[ $# != 1 ]]; then
-    echo "k8s_version" $1
+if [[ $# == 1 ]]; then
     VERSION=$1
 fi
 
