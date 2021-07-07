@@ -53,3 +53,7 @@ EOF
 # Apply sysctl params without reboot
 sysctl --system
 
+
+#注意: kubeadm 方式部署的话，在/etc/kubernetes/manifests/kube-apiserver.yaml修改
+#增加这一句话     - --enable-aggregator-routing=true 开启路由
+
