@@ -1,16 +1,13 @@
 ## My daily scripts
 主要记录自己平时在ubuntu20.04 x86架构使用下，用到的一些脚本
+由于华为云给的Centos8， 这边再记录一下Centos8使用到的一些脚本
 
 - `basic_utils.sh`: 更换阿里源并安装一些基础工具
 - `change.sh`: 更改一些主机配置， 修改主机名称， 关闭swap，防火墙等 `sudo ./change.sh hostname`
 
 
-
 ### maven
-
 - `maven.sh` 安装maven环境， 会先安装java8
-
-
 
 
 ### k8s: k8s集群安装
