@@ -1,4 +1,4 @@
-
+#!/bin/bash
 
 wget http://nginx.org/download/nginx-1.16.1.tar.gz
 mkdir -p nginx/core

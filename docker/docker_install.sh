@@ -33,7 +33,7 @@ groupadd docker
 gpasswd -a $USER docker
 newgrp docker
 
-cat <<EOF >  /etc/docker/daemon.json
+cat <<EOF | sudo tee  /etc/docker/daemon.json
 {
 	"registry-mirrors": ["http://hub-mirror.c.163.com"],
 	"insecure-registries":["192.168.1.104:5000"],
